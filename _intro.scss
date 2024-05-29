@@ -1,0 +1,30 @@
+.wrapper_intro{
+    padding-top: 97px;
+    width: 100vw;
+    height: 100wh;
+    display: flex;
+    gap: 172px;
+    
+}
+.wrapper_left{
+    
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39px;
+    }
+    p{
+        font-weight: 464px;
+        font-style: 24px;
+        line-height: 24px;
+        line-height: 2;
+    }
+    .intro_btn{
+        width: 232px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(0, 186, 252, 1);
+    }
+}
+

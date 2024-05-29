@@ -1,0 +1,30 @@
+.navbar{
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    ul{
+        display: flex;
+        gap: 32px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+    .nav-btn{
+        padding: 8px 16px;
+        background: rgba(0, 186, 252, 1);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+    }
+}
+header{
+ box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;;
+}
+
+.wrapper_right{
+    width: 50vh;
+}
