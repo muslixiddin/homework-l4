@@ -1,0 +1,40 @@
+.wrapper{
+    padding-top: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrapper_imuts{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+        width: 348px;
+        height: 308px;
+        background-color: #fff;
+        flex-direction: column;
+        .wrapper_inpuA{
+            input{
+                width: 300px;
+                height: 56px;
+                background-color: rgba(243, 243, 243, 1); 
+                border: none;
+                border-radius: 5px;
+            }
+            select{
+                width: 300px;
+                height: 56px;
+                background-color: rgba(243, 243, 243, 1); 
+                border: none;
+                border-radius: 5px;
+            }
+        }
+        .class_btn{
+            button{
+                width: 167px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(0, 186, 252, 1);
+            }
+        }
+    }
+}

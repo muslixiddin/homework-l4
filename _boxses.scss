@@ -1,0 +1,39 @@
+
+ 
+.wrapper_box{
+    padding-left: 504px;
+    padding-top: 80px;
+    .box{
+        background-color: aqua;
+        width: 804px;
+        height: 367px;
+        display: flex;
+        gap: 40px;
+        padding-left: 32px;
+        padding-top: 32px;
+        
+    
+        .wrapper_right{
+            span{
+                padding-top: 10px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+        }
+        .wrapper_button{
+            padding-top: 10px;
+            button{
+                width: 160px;
+                height: 40px;
+                border: none;
+                border-radius: 5px;
+                background-color: rgba(0, 186, 252, 1);
+                
+            }
+        }
+    }
+
+}
+      
+   
